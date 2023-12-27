@@ -3,7 +3,6 @@ import cv2
 
 app = Flask(__name__)
 
-# Replace 'your_camera_ip' with the actual IP address of your OAK-D PoE camera
 camera_ip = 'http://192.168.1.13/video'
 camera = cv2.VideoCapture(camera_ip)
 
